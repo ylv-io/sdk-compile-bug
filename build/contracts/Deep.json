@@ -1,0 +1,63 @@
+{
+  "fileName": "Deep.sol",
+  "contractName": "Deep",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Deep {}",
+  "sourcePath": "contracts/one/two/Deep.sol",
+  "sourceMap": "25:16:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:16:2;;;;;;;",
+  "deployedSourceMap": "25:16:2:-;;;;;",
+  "abi": [],
+  "ast": {
+    "absolutePath": "one/two/Deep.sol",
+    "exportedSymbols": {
+      "Deep": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 8,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Deep",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 10,
+        "src": "25:16:2"
+      }
+    ],
+    "src": "0:41:2"
+  },
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158207da0e9fc8209e5f15b0ef171c261277950ecb60da823a00a53f338a5ae57b21f64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158207da0e9fc8209e5f15b0ef171c261277950ecb60da823a00a53f338a5ae57b21f64736f6c63430005100032",
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "evmVersion": "petersburg"
+  }
+}
+"
+  }
+}
